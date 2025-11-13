@@ -1,1 +1,1 @@
-# python2project
+# this is the outline of our python project
