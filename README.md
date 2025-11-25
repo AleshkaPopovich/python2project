@@ -7,3 +7,4 @@ Features
 Inline keyboard with predefined cities (Barcelona, Madrid, Valencia, Seville)
 Fetches current weather information (description, temperature, feels-like, humidity) from OpenWeatherMap
 Provides the user with that weather information
+#hello
