@@ -4,6 +4,7 @@ from telebot import types
 # asigning API keys
 OWM_API_KEY = "6f6c7160b5e6b7016b200cf7ba25fa10"
 BOT_TOKEN = "8279828806:AAH9G6T-6v7nhm1EnsrkmX7paP2oeCWt_hI"
+#hello
 
 # TeleBot instance .
 bot = telebot.TeleBot(BOT_TOKEN)
