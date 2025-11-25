@@ -1,10 +1,9 @@
 # python2project
-TELEGRAM BOT
+A Telegram bot that returns current weather for a small set of predefined Spanish cities using the OpenWeatherMap API.
 
-HARBOUR SPACE WEATHER BOT
+This version uses the pyTelegramBotAPI (telebot) library and requests to fetch weather data and present it with inline keyboard buttons.
 
-DESCRIPTION 
-Automatic telegram bot which will be sending weather news everyday at a fixed time
-Will be accepting input from the user about the quality of the weather in a given location at a given time
-Will be providing insights about the extent of safety of the outdoor activites 
-WIll be showing air quality at a given place
+Features
+Inline keyboard with predefined cities (Barcelona, Madrid, Valencia, Seville)
+Fetches current weather information (description, temperature, feels-like, humidity) from OpenWeatherMap
+Provides the user with that weather information
