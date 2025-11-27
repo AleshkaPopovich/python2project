@@ -22,7 +22,7 @@ Real-time weather based on GPS coordinates.
 AI chat mode with memory per-user.
 
 # Dependencies
-pip install python-telegram-bot==20.7 requests==2.31.0 openai==1.37.0
+pip freeze > requrements.txt to get all of the needed dependencies
 
 
 # Screenshots
