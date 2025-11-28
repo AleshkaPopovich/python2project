@@ -1,5 +1,5 @@
 import requests
-from config import OWM_API_KEY, CITIES
+from config import OWM_API_KEY, CITIES, CITY_NAME_SET
 
 class WeatherService:
     def __init__(self, api_key, cities):
@@ -7,11 +7,11 @@ class WeatherService:
         self.cities = cities
 
     def get_weather(self, city_name):
-        if city_name not in self.cities:
+        if city_name not in CITY_NAME_SET:
             return "City not found"
 
-        lat = self.cities[city_name]["lat"]
-        lon = self.cities[city_name]["lon"]
+        coords = (self.cities[city_name]["lat"], self.cities[city_name]["lon"])
+        lat, lon = coords
 
         url = "https://api.openweathermap.org/data/2.5/weather"
         url = url + "?lat=" + str(lat) + "&lon=" + str(lon) + "&appid=" + self.api_key + "&units=metric"
@@ -21,7 +21,7 @@ class WeatherService:
             data = r.json()
 
             main = data["main"]
-            weather = data["weather"][0]
+            weather = data["weather"][0] 
 
             temp = main["temp"]
             feels_like = main["feels_like"]
