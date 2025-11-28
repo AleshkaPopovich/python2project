@@ -86,6 +86,13 @@ pip install -r requirements.txt
 - [ ] Deploy the bot to an online server  
 - [ ] Add logging (maybe…)
 
+
+# Team Members
+    Pau
+    Artem
+    Github(Artem): @AleshkaPopovich
+    Email(Artem) : artemganeev07@gmail.com
+
 ## Project Structure
 
 ```text
@@ -101,14 +108,16 @@ python2project/
 ├── ai.py                 # AI class basically
 ├── telegram_bot.py       # WeatherBot class: Telegram bot, handlers, AI chat mode
 └──weather_service.py    # WeatherService class which basically calls calls OpenWeather API
-
-
+``` 
 
 # Team Members
     Pau
     Artem
     Github(Artem): @AleshkaPopovich
     Email(Artem) : artemganeev07@gmail.com
+
+
+
 
 
 
