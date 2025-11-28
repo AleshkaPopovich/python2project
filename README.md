@@ -78,17 +78,18 @@ pip install -r requirements.txt
     Type /stopai to exit the AI mode
 
 
-# TODO
-    Save conversation history to a file, instead of only in memory
 
-    Add more cities dynamically via user input
+## TODO
 
-    Deploy the bot to an online server
+- [ ] Save conversation history to a file instead of only in memory  
+- [ ] Add more cities dynamically via user input  
+- [ ] Deploy the bot to an online server  
+- [ ] Add logging (maybe…)
 
-    Add logging in I guess
+## Project Structure
 
-# Project Structure
-    python2project/
+```text
+python2project/
 ├── .venv/                # Virtual environment (ignored in git)
 ├── __pycache__/          # cahce files from python( ignored as well)
 ├── .gitignore            # ignored files (includes .env, .venv, __pychache__)
@@ -100,6 +101,7 @@ pip install -r requirements.txt
 ├── ai.py                 # AI class basically
 ├── telegram_bot.py       # WeatherBot class: Telegram bot, handlers, AI chat mode
 └──weather_service.py    # WeatherService class which basically calls calls OpenWeather API
+
 
 
 # Team Members
