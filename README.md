@@ -87,12 +87,6 @@ pip install -r requirements.txt
 - [ ] Add logging (maybe…)
 
 
-# Team Members
-    Pau
-    Artem
-    Github(Artem): @AleshkaPopovich
-    Email(Artem) : artemganeev07@gmail.com
-
 ## Project Structure
 
 ```text
